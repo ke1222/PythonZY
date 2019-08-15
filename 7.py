@@ -1,0 +1,8 @@
+money = eval(input("Enter the monthly saving amount:"))
+m1 = money*(1 + (0.05/12))
+m2 = (money + m1)*(1 + (0.05/12)) 
+m3 = (money + m2)*(1 + (0.05/12))
+m4 = (money + m3)*(1 + (0.05/12))
+m5 = (money + m4)*(1 + (0.05/12))
+m6 = (money + m5)*(1 + (0.05/12))
+print('%.2f'%m6)
